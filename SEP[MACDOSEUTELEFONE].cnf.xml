@@ -146,7 +146,7 @@
         <sipLines>
             <line button="1">
                 <featureID>9</featureID>
-                <featureLabel>hedder</featureLabel>
+                <featureLabel>seunome</featureLabel>
                 <name>101</name>
                 <displayName>101</displayName>
                 <contact>101</contact>
@@ -172,7 +172,7 @@
             </line>
 			<line button="2">
                 <featureID>9</featureID>
-                <featureLabel>hostdream</featureLabel>
+                <featureLabel>seunome</featureLabel>
                 <name>106</name>
                 <displayName>106</displayName>
                 <contact>106</contact>
