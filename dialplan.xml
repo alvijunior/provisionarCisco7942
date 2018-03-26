@@ -1,0 +1,33 @@
+<DIALTEMPLATE>    
+    <TEMPLATE MATCH="999" Timeout="0"/>             <!-- Emergency -->
+    <TEMPLATE MATCH="112" Timeout="0"/>             <!-- Emergency -->
+    <TEMPLATE MATCH="101" Timeout="0"/>             <!-- Almost an Emergency -->
+    <TEMPLATE MATCH="111" Timeout="0"/>             <!-- NHS emergency and urgent care services -->
+ 
+    <TEMPLATE MATCH="100" Timeout="0"/>             <!-- Operator -->
+    <TEMPLATE MATCH="155" Timeout="0"/>             <!-- International Operator -->
+    <TEMPLATE MATCH="123" Timeout="0"/>             <!-- Speaking Clock -->
+
+    <TEMPLATE MATCH="1471" TIMEOUT="0"/>            <!-- Call Return -->
+    <TEMPLATE MATCH="199" Timeout="0"/>            <!-- Voicemail -->
+    <TEMPLATE MATCH="1572" Timeout="0"/>            <!-- Group Voicemail -->
+ 
+    <TEMPLATE MATCH="118..." Timeout="0"/>          <!-- Men with moustaches -->
+    <TEMPLATE MATCH="116..." Timeout="0"/>          <!-- Pan-European Social Help -->
+ 
+    <TEMPLATE MATCH="08001111" Timeout="0"/>        <!-- Childline -->
+    <TEMPLATE MATCH="0845464." Timeout="0"/>        <!-- NHS Direct -->
+    <TEMPLATE MATCH="0500......" Timeout="0"/>      <!-- Apparently 0500 is always 10 digits -->
+ 
+    <!-- Uncomment if you care about this one. Worst case, you'll wait 5 seconds -->
+    <!-- <TEMPLATE MATCH="016977...." Timeout="0"/> --> <!-- Brampton, Carlisle. Also 10 digits -->
+ 
+    <TEMPLATE MATCH="00*" Timeout="5"/>             <!-- International, 00 prefixed. No fixed length -->
+    <TEMPLATE MATCH="0.........." Timeout="0"/>     <!-- UK 11 digit, 0 prefixed -->
+    <TEMPLATE MATCH="1410.........." Timeout="0"/>  <!-- UK 11 digit, 141 prefixed -->
+    <TEMPLATE MATCH="14700.........." Timeout="0"/> <!-- UK 11 digit, 1470 prefixed -->
+ 
+    <TEMPLATE MATCH="\*.." Timeout="0"/>            <!-- Asterisk *.. codes -->
+ 
+    <TEMPLATE MATCH="*" Timeout="2"/>               <!-- Anything else -->
+</DIALTEMPLATE>
