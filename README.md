@@ -53,7 +53,7 @@ O provisionamento não é difícil de fazer, basta seguir os passos abaixo. Tamb
 
 5 - Agora desça até a linha que contém a tag "loadInformation" e dentro dela, informe a versão do firmware obtido no seu telefone (Loadfile). É importante informar exatamente como está no seu telefone, case, traços, pontos, etc. senão não vai funcionar.
 
-6 - Agora localize a tag "sipLines" e dentro dela, você vai localizar as tags "line button=1" e "line button=1", que é a configuração de cada uma das linhas. Se você só vai configurar uma linha, apague então a tag "line button=1" até o fim "/line".
+6 - Agora localize a tag "sipLines" e dentro dela, você vai localizar as tags "line button=1" e "line button=1", que é a configuração de cada uma das linhas. Se você só vai configurar uma linha, apague então a tag "line button=2" até o fim "/line".
 
 7 - Preencha os itens da tag "line button=1" da seguinte forma (o que eu não mostrar, é só não mexer):
 
