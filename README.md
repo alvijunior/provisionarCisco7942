@@ -1,8 +1,8 @@
 # provisionarCisco7942
-Como provisionar telefone Cisco 7942 com linhas SIP
+
+<h1>Como provisionar telefone Cisco 7942 com linhas SIP</h1>
 
 
-Provisionar telefone ip Cisco 7942 com linhas SIP
 
 Nesse artigo vou mostrar um breve tutorial sobre como você deve provisionar seu telefone Cisco 7942, com suas linhas SIP.  O Cisco 7942 possui 2 linhas e você pode configurar somente uma ou as duas.  É importante salientar que neste artigo, não estou mostrando como converter o telefone de SCCP para SIP, mas sim apenas como provisioná-lo, ou seja, como configurá-lo com suas linhas voip SIP, seja ramais de um servidor de sua rede (Asterisk, 3CX, etc) ou de algum provedor externo na web.
 
@@ -10,7 +10,7 @@ O provisionamento não é difícil de fazer, basta seguir os passos abaixo. Tamb
 
 
 
-INFORMAÇÕES IMPORTANTES, LEIA ANTES DE INICIAR:
+<h2>INFORMAÇÕES IMPORTANTES, LEIA ANTES DE INICIAR:</h2>
  
 
 - A configuração do seu telefone é de sua responsabilidade. Não me responsabilizo por qualquer problema ou dano que seu telefone apresente após a configuração. Relaxe, não precisa apavorar, até porque que o arquivo XML que você vai subir para o telefone, não tem nada demais, só configurações básicas - você vai abrir e ver - mas não me responsabilizo por qualquer problema ok? Ao realizar o procedimento está fazendo por sua conta e risco.
@@ -27,7 +27,7 @@ INFORMAÇÕES IMPORTANTES, LEIA ANTES DE INICIAR:
 
 
 
-PASSO 1 -  OBTENDO INFORMAÇÕES NO SEU TELEFONE
+<h3>PASSO 1 -  OBTENDO INFORMAÇÕES NO SEU TELEFONE</h3>
 
 
 1 - Primeiro de tudo: conecte seu telefone Cisco 7942 à sua rede e ligue-o na energia. Não é preciso conectar o telefone com um cabo diretamente no computador não, basta conectar ele na sua rede atual.
@@ -40,7 +40,7 @@ PASSO 1 -  OBTENDO INFORMAÇÕES NO SEU TELEFONE
 
  
  
-PASSO 2 - CONFIGURAR ARQUIVO XML
+<h3>PASSO 2 - CONFIGURAR ARQUIVO XML</h3>
 
 
 1 - Baixe o arquivo zip no link e descompacte-no seu computador:   Baixar arquivo aqui
@@ -72,7 +72,7 @@ Repita o preenchimento das tags no "line button=2", se você for configurar duas
 
 
  
-PASSO 3 - CONFIGURAR SERVIDOR TFTP SERVER
+<h3>PASSO 3 - CONFIGURAR SERVIDOR TFTP SERVER</h3>
 
 
 1 - Baixe o Pumpkin TFTP Server nesse link aqui ( Baixar Pumpkin )  ou de qualquer outro site que preferir.  Instale-o no seu computador e desative o firewall do seu Windows.
@@ -87,7 +87,7 @@ PASSO 3 - CONFIGURAR SERVIDOR TFTP SERVER
 
 
  
-PASSO 4 - TRANSFERIR OS ARQUIVOS PARA O TELEFONE
+<h3>PASSO 4 - TRANSFERIR OS ARQUIVOS PARA O TELEFONE</h3>
 
 
 1 - Agora que já está tudo pronto, no seu telefone ip, aperte o botão SETTINGS e vá em NETWORK CONFIGURATION > IPV4 CONFIGURATION  e desça até a opção TFTP SERVER 1. Aperte o botão EDIT e informe o endereço ip do computador onde está rodando o Pumpkin TFTP Server. 
