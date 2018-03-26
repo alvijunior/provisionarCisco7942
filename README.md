@@ -57,14 +57,14 @@ O provisionamento não é difícil de fazer, basta seguir os passos abaixo. Tamb
 
 7 - Preencha os itens da tag "line button=1" da seguinte forma (o que eu não mostrar, é só não mexer):
 
-featureLabel - Coloque ali o nome que você quer que seja exibido na frente da linha, no visor do telefone.
-name - Informe o usuário do seu ramal ou linha voip
-displayName - Informe o usuário do seu ramal ou linha voip
-contact - Informe o usuário do seu ramal ou linha voip
-proxy - Informe o endereço ip do seu servidor Asterisk ou provedor voip
-port - Informe a porta sip do seu servidor/provedor (em geral é 5060 mesmo, se você não tiver essa informação, mantenha 5060)
-authName - Informe o usuário do seu ramal ou linha voip
-authPassword - Informe a senha do seu ramal ou linha voip
+<b>featureLabel</b> - Coloque ali o nome que você quer que seja exibido na frente da linha, no visor do telefone.<br />
+<b>name</b> - Informe o usuário do seu ramal ou linha voip.<br />
+<b>displayName</b> - Informe o usuário do seu ramal ou linha voip.<br />
+<b>contact</b> - Informe o usuário do seu ramal ou linha voip.<br />
+<b>proxy</b> - Informe o endereço ip do seu servidor Asterisk ou provedor voip.<br />
+<b>port</b> - Informe a porta sip do seu servidor/provedor (em geral é 5060 mesmo, se você não tiver essa informação, mantenha 5060).<br />
+<b>authName</b> - Informe o usuário do seu ramal ou linha voip.<br />
+<b>authPassword</b> - Informe a senha do seu ramal ou linha voip.<br />
 
 Repita o preenchimento das tags no "line button=2", se você for configurar duas linhas. Agora salve o arquivo e feche-o.
 
